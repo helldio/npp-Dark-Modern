@@ -28,29 +28,3 @@ The easiest way to install the theme is using the built-in import feature.
 3. Restart Notepad++.
 4. Select the theme in **Settings > Style Configurator**.
 
-## Screenshots
-*(Note: Screenshots may reflect previous versions of the theme but still demonstrate the overall look and feel.)*
-
-**JSON**  
-![JSON](https://github.com/hellon8/VS2019-Dark-Npp/blob/master/Screenshots/Json.png "JSON")  
-
-**CSV** (Requires [`CSV Lint`](https://github.com/BdR76/CSVLint) plugin)  
-![CSV](https://github.com/hellon8/VS2019-Dark-Npp/blob/master/Screenshots/csv.png "CSV")  
-
-**Javascript**  
-![Javascript](https://github.com/hellon8/VS2019-Dark-Npp/blob/master/Screenshots/javascript.png "Javascript")  
-
-**HTML**  
-![HTML](https://github.com/hellon8/VS2019-Dark-Npp/blob/master/Screenshots/html.png "HTML")  
-
-**XML**  
-![XML](https://github.com/hellon8/VS2019-Dark-Npp/blob/master/Screenshots/xml.png "XML")  
-
-**Registry**  
-![Registry](https://github.com/hellon8/VS2019-Dark-Npp/blob/master/Screenshots/reg.png "Registry")  
-
-**PowerShell**  
-![PowerShell](https://github.com/hellon8/VS2019-Dark-Npp/blob/master/Screenshots/PowerShell.png "PowerShell")  
-
-**C#**  
-![C#](https://github.com/hellon8/VS2019-Dark-Npp/blob/master/Screenshots/C-sharp.png "C#")  
