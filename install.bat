@@ -1,13 +1,13 @@
 @echo off
 :: ==========================================================
-:: Install VS2019Dark notepad++ theme
+:: Install Dark+ Modern notepad++ theme
 :: ==========================================================
 :: Data: 20/05/2026
 :: Autor: hellon8
 
 setlocal
 
-set "THEME_NAME=VS2019-Dark.xml"
+set "THEME_NAME=Dark+ Modern.xml"
 set "TARGET_DIR=%AppData%\Notepad++\themes"
 
 echo Installing %THEME_NAME% to %TARGET_DIR%...
@@ -22,7 +22,7 @@ copy /y "%~dp0%THEME_NAME%" "%TARGET_DIR%\"
 if %errorlevel% equ 0 (
     echo.
     echo Theme installed successfully!
-    echo Please restart Notepad++ and select "VS2019-Dark" in Settings ^> Style Configurator.
+    echo Please restart Notepad++ and select "Dark+ Modern" in Settings ^> Style Configurator.
 ) else (
     echo.
     echo Error: Failed to copy theme file.
