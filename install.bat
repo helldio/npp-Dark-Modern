@@ -1,14 +1,32 @@
 @echo off
 :: ==========================================================
-:: Install VS2019Dark notepad++ theme - Run as admin
+:: Install VS2019Dark notepad++ theme
 :: ==========================================================
-:: Data: 11/04/2024
+:: Data: 20/05/2026
 :: Autor: hellon8
 
-pushd "%~dp0"
-setlocal ENABLEDELAYEDEXPANSION
+setlocal
 
-copy *.xml "%programfiles%\Notepad++\themes" /y
+set "THEME_NAME=VS2019-Dark.xml"
+set "TARGET_DIR=%AppData%\Notepad++\themes"
 
-popd
+echo Installing %THEME_NAME% to %TARGET_DIR%...
+
+if not exist "%TARGET_DIR%" (
+    echo Creating themes directory...
+    mkdir "%TARGET_DIR%"
+)
+
+copy /y "%~dp0%THEME_NAME%" "%TARGET_DIR%\"
+
+if %errorlevel% equ 0 (
+    echo.
+    echo Theme installed successfully!
+    echo Please restart Notepad++ and select "VS2019-Dark" in Settings ^> Style Configurator.
+) else (
+    echo.
+    echo Error: Failed to copy theme file.
+)
+
+pause
 exit /b

@@ -1,41 +1,56 @@
-# VS2019-Dark-Npp
-Visual Studio 2019 Dark Theme for Notepad++
+# Dark+ Modern Theme for Notepad++
 
-This is a loose replica of the Visual Studio 2019's Dark theme in Notepad++. It was created to ease switching between files opened in Visual Studio and Notepad++. It is actually just enhanced from https://github.com/cydh/VS2015-Dark-Npp (credits also to original version https://github.com/SeanCline/Npp-VS2012-Dark) to improve reading, increasing contrast to a comfortable level and differing more keyword types. I also took a bit from Zenburn theme and tweaked a bit to fill some languages missing from the original theme.
+A fresh, modern dark theme for Notepad++, crafted from scratch using the exact color palette of recent versions of VSCode (specifically **Dark+** and **Dark Modern**). 
 
-Installation
---------------------------
-0. (Optional) If you haven't already, turn on Notepad++ dark mode in *Preferences -> Dark Mode* to a better look and feel.
+This project is a rebranding and complete overhaul of the previously popular **VS2019-Dark-Npp** theme. We decided to keep it in this repository so existing users can easily discover and benefit from the new aesthetics!
 
-Method 1
-1. Clone the entire project into a folder in your file system
-2. Right click install.bat and run it as administrator.
+*Note: This theme was originally inspired by and evolved from the works of [cydh's VS2015-Dark-Npp](https://github.com/cydh/VS2015-Dark-Npp) and [SeanCline's Npp-VS2012-Dark](https://github.com/SeanCline/Npp-VS2012-Dark). Thanks to their original efforts!*
 
-Method 2
-1. **Right Click** [`HERE`](https://raw.githubusercontent.com/hellon8/VS2019-Dark-Npp/master/VS2019-Dark.xml) and select **Save As** to download the theme.
-2. Go to **%programfiles%\Notepad++**.
-3. Open **themes** folder, create a new folder named **themes** if it doesn't exists.
-4. Place downloaded **.xml** file inside the folder.
-2. Restart Notepad++.
-3. Open *Settings->Style Configurator*.
-4. Select **VS2019-Dark** from the theme drop-down box.
-5. Click **Save & Close**
+## Installation
 
-Screenshot
-----------
-JSON  
-![Screenshot](https://github.com/hellon8/VS2019-Dark-Npp/blob/master/Screenshots/Json.png "JSON")  
-CSV (For this, you will need the [`CSV Lint`](https://github.com/BdR76/CSVLint) plugin)  
-![Screenshot](https://github.com/hellon8/VS2019-Dark-Npp/blob/master/Screenshots/csv.png "CSV")  
-Javascript  
-![Screenshot](https://github.com/hellon8/VS2019-Dark-Npp/blob/master/Screenshots/javascript.png "Javascript")  
-HTML  
-![Screenshot](https://github.com/hellon8/VS2019-Dark-Npp/blob/master/Screenshots/html.png "HTML")  
-XML  
-![Screenshot](https://github.com/hellon8/VS2019-Dark-Npp/blob/master/Screenshots/xml.png "XML")  
-Registry  
-![Screenshot](https://github.com/hellon8/VS2019-Dark-Npp/blob/master/Screenshots/reg.png "Reg")  
-PowerShell  
-![Screenshot](https://github.com/hellon8/VS2019-Dark-Npp/blob/master/Screenshots/PowerShell.png "PowerShell")  
-C#  
-![Screenshot](https://github.com/hellon8/VS2019-Dark-Npp/blob/master/Screenshots/C-sharp.png "C#")  
+The easiest way to install the theme is using the built-in import feature.
+
+### Method 1: Import (Recommended)
+1. Download the [`Dark+ Modern.xml`](https://raw.githubusercontent.com/hellon8/VS2019-Dark-Npp/master/Dark%2B%20Modern.xml) file.
+2. Open Notepad++.
+3. Go to **Settings > Import > Import Style Theme(s)...**
+4. Select the downloaded `.xml` file.
+5. Go to **Settings > Style Configurator**, select **Dark+ Modern** from the theme dropdown, and click **Save & Close**.
+
+### Method 2: Automatic Script
+1. Clone or download this repository.
+2. Run `install.bat`. This will copy the theme to your local Notepad++ themes folder (`%AppData%\Notepad++\themes`).
+
+### Method 3: Manual Installation
+1. Download [`Dark+ Modern.xml`](https://raw.githubusercontent.com/hellon8/VS2019-Dark-Npp/master/Dark%2B%20Modern.xml).
+2. Copy the file to `%AppData%\Notepad++\themes`.
+   - *Note: If you use a portable version, copy it to the `themes` folder in your Notepad++ installation directory.*
+3. Restart Notepad++.
+4. Select the theme in **Settings > Style Configurator**.
+
+## Screenshots
+*(Note: Screenshots may reflect previous versions of the theme but still demonstrate the overall look and feel.)*
+
+**JSON**  
+![JSON](https://github.com/hellon8/VS2019-Dark-Npp/blob/master/Screenshots/Json.png "JSON")  
+
+**CSV** (Requires [`CSV Lint`](https://github.com/BdR76/CSVLint) plugin)  
+![CSV](https://github.com/hellon8/VS2019-Dark-Npp/blob/master/Screenshots/csv.png "CSV")  
+
+**Javascript**  
+![Javascript](https://github.com/hellon8/VS2019-Dark-Npp/blob/master/Screenshots/javascript.png "Javascript")  
+
+**HTML**  
+![HTML](https://github.com/hellon8/VS2019-Dark-Npp/blob/master/Screenshots/html.png "HTML")  
+
+**XML**  
+![XML](https://github.com/hellon8/VS2019-Dark-Npp/blob/master/Screenshots/xml.png "XML")  
+
+**Registry**  
+![Registry](https://github.com/hellon8/VS2019-Dark-Npp/blob/master/Screenshots/reg.png "Registry")  
+
+**PowerShell**  
+![PowerShell](https://github.com/hellon8/VS2019-Dark-Npp/blob/master/Screenshots/PowerShell.png "PowerShell")  
+
+**C#**  
+![C#](https://github.com/hellon8/VS2019-Dark-Npp/blob/master/Screenshots/C-sharp.png "C#")  
