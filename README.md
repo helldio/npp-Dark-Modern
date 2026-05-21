@@ -17,7 +17,7 @@ Check out the [Screenshots Directory](screenshots/README.md) to see how the them
 The easiest way to install the theme is using the built-in import feature.
 
 ### Method 1: Import (Recommended)
-1. Download the [`Dark+ Modern.xml`](Dark%2B%20Modern.xml) file.
+1. Download the [`Dark+ Modern.xml`](Dark%2B%20Modern.xml) file (or **Right Click** [`HERE`](https://raw.githubusercontent.com/helldio/npp-Dark-Modern/main/Dark%2B%20Modern.xml) and select **Save Link As...**).
 2. Open Notepad++.
 3. Go to **Settings > Import > Import Style Theme(s)...**
 4. Select the downloaded `.xml` file.
@@ -28,7 +28,7 @@ The easiest way to install the theme is using the built-in import feature.
 2. Run `install.cmd`. This will copy the theme to your local Notepad++ themes folder (`%AppData%\Notepad++\themes`).
 
 ### Method 3: Manual Installation
-1. Download [`Dark+ Modern.xml`](Dark%2B%20Modern.xml).
+1. Download [`Dark+ Modern.xml`](Dark%2B%20Modern.xml) (or **Right Click** [`HERE`](https://raw.githubusercontent.com/helldio/npp-Dark-Modern/main/Dark%2B%20Modern.xml) and select **Save Link As...**).
 2. Copy the file to `%AppData%\Notepad++\themes`.
    - *Note: If you use a portable version, copy it to the `themes` folder in your Notepad++ installation directory.*
 3. Restart Notepad++.
