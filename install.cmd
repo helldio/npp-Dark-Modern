@@ -3,7 +3,7 @@
 :: Install Dark+ Modern notepad++ theme
 :: ==========================================================
 :: Data: 20/05/2026
-:: Autor: hellon8
+:: Autor: helldio
 
 setlocal
 
