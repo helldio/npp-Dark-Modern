@@ -6,11 +6,13 @@ A fresh, modern dark theme for Notepad++, crafted from scratch using the exact c
 
 This project is a rebranding and complete overhaul of the previously **hellon8/VS2019-Dark-Npp** theme. We decided to keep it in this repository so existing users can easily discover and benefit from the new aesthetics!
 
+> **Prefer the old VS2019-style theme?** It's still available on the [master branch](https://github.com/helldio/npp-Dark-Modern/tree/master).
+
 *Note: This theme was originally inspired by and evolved from the works of [cydh's VS2015-Dark-Npp](https://github.com/cydh/VS2015-Dark-Npp) and [SeanCline's Npp-VS2012-Dark](https://github.com/SeanCline/Npp-VS2012-Dark). Thanks to their original efforts!*
 
 ## Screenshots
 
-Check out the [Screenshots Directory](screenshots/README.md) to see how the theme highlights different programming languages (including C, C++, C#, CSS, F#, HTML, Java, JavaScript, JSON, PHP, PowerShell, Python, Rust, SQL, XML, and YAML).
+Check out the [Screenshots](screenshots/README.md) to see how the theme highlights different programming languages (including C, C++, C#, CSS, F#, HTML, Java, JavaScript, JSON, PHP, PowerShell, Python, Rust, SQL, XML, and YAML).
 
 ## Installation
 

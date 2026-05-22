@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+    Dark+ Modern Theme for Notepad++
+    Repository: https://github.com/helldio/npp-Dark-Modern
+    Branch: main (current theme) | Old VS2019-style theme: https://github.com/helldio/npp-Dark-Modern/tree/master
+    License: MIT
+-->
 <NotepadPlus modelDate="20260519" modelFileLastModifiedDate="20260519">
     <LexerStyles>
         <LexerType name="actionscript" desc="ActionScript" ext="">
