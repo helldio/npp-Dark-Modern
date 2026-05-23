@@ -1,0 +1,36 @@
+# GitHub Actions workflow style YAML demonstrating keys, nested sequences, and types.
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [ "master", "main" ]
+  pull_request:
+    branches: [ "master" ]
+
+env:
+  NODE_VERSION: '18.x'
+  PROJECT_NAME: 'NppThemePlugin'
+
+jobs:
+  build-and-test:
+    runs-on: windows-latest
+    
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js Environment
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+
+      - name: Install Project Dependencies
+        run: npm ci
+
+      - name: Execute Tests and Linter
+        run: |
+          npm run lint
+          npm test
+        env:
+          CI: true

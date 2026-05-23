@@ -1,0 +1,16 @@
+<img src='capture_019_23052026_152013.png' width='900'>
+<img src='capture_020_23052026_152043.png' width='900'>
+<img src='capture_021_23052026_152051.png' width='900'>
+<img src='capture_022_23052026_152057.png' width='900'>
+<img src='capture_023_23052026_152104.png' width='900'>
+<img src='capture_024_23052026_152110.png' width='900'>
+<img src='capture_025_23052026_152117.png' width='900'>
+<img src='capture_026_23052026_152129.png' width='900'>
+<img src='capture_027_23052026_152153.png' width='900'>
+<img src='capture_028_23052026_152201.png' width='900'>
+<img src='capture_029_23052026_152206.png' width='900'>
+<img src='capture_030_23052026_152210.png' width='900'>
+<img src='capture_031_23052026_152215.png' width='900'>
+<img src='capture_032_23052026_152222.png' width='900'>
+<img src='capture_033_23052026_152230.png' width='900'>
+<img src='capture_034_23052026_152238.png' width='900'>

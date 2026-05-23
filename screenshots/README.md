@@ -24,81 +24,80 @@ This page indexes screenshots of the **Dark+ Modern** Notepad++ theme, demonstra
 ---
 
 ## C
-File: `c.jpg`
-
-<img src="c.jpg" width="956">
+File: `c.png`
+<img src="c.png" width="900">
 
 ## C# (C-Sharp)
-File: `csharp.jpg`
+File: `csharp.png`
 
-<img src="csharp.jpg" width="956">
+<img src="csharp.png" width="900">
 
 ## C++ (C-Plus-Plus)
-File: `cpp.jpg`
+File: `cpp.png`
 
-<img src="cpp.jpg" width="956">
+<img src="cpp.png" width="900">
 
 ## CSS
-File: `css.jpg`
+File: `css.png`
 
-<img src="css.jpg" width="956">
+<img src="css.png" width="900">
 
 ## F# (F-Sharp)
-File: `fsharp.jpg`
+File: `fsharp.png`
 
-<img src="fsharp.jpg" width="988">
+<img src="fsharp.png" width="900">
 
 ## HTML
-File: `html.jpg`
+File: `html.png`
 
-<img src="html.jpg" width="956">
+<img src="html.png" width="900">
 
 ## Java
-File: `java.jpg`
+File: `java.png`
 
-<img src="java.jpg" width="956">
+<img src="java.png" width="900">
 
 ## JavaScript
-File: `javascript.jpg`
+File: `javascript.png`
 
-<img src="javascript.jpg" width="956">
+<img src="javascript.png" width="900">
 
 ## JSON
-File: `json.jpg`
+File: `json.png`
 
-<img src="json.jpg" width="956">
+<img src="json.png" width="900">
 
 ## PHP
-File: `php.jpg`
+File: `php.png`
 
-<img src="php.jpg" width="956">
+<img src="php.png" width="900">
 
 ## PowerShell
-File: `powershell.jpg`
+File: `powershell.png`
 
-<img src="powershell.jpg" width="956">
+<img src="powershell.png" width="900">
 
 ## Python
-File: `python.jpg`
+File: `python.png`
 
-<img src="python.jpg" width="956">
+<img src="python.png" width="900">
 
 ## Rust
-File: `rust.jpg`
+File: `rust.png`
 
-<img src="rust.jpg" width="956">
+<img src="rust.png" width="900">
 
 ## SQL
-File: `sql.jpg`
+File: `sql.png`
 
-<img src="sql.jpg" width="956">
+<img src="sql.png" width="900">
 
 ## XML
-File: `xml.jpg`
+File: `xml.png`
 
-<img src="xml.jpg" width="956">
+<img src="xml.png" width="900">
 
 ## YAML
-File: `yaml.jpg`
+File: `yaml.png`
 
-<img src="yaml.jpg" width="956">
+<img src="yaml.png" width="900">

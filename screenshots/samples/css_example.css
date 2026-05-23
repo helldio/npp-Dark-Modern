@@ -1,0 +1,51 @@
+/* Color Palette definition using CSS Variables */
+:root {
+    --bg-dark: #1e1e1e;
+    --text-light: #d4d4d4;
+    --primary-blue: #007acc;
+    --hover-gold: #dcdcaa;
+    --border-color: rgba(255, 255, 255, 0.15);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--text-light);
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.nav-link:hover {
+    color: var(--hover-gold);
+    text-decoration: underline;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Layout utilities */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 40px;
+}
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+}

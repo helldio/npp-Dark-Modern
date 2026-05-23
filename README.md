@@ -12,6 +12,8 @@ This project is a rebranding and complete overhaul of the previously **hellon8/V
 
 ## Screenshots
 
+<img src="screenshots/javascript.png" width="900">
+
 Check out the [Screenshots](screenshots/README.md) to see how the theme highlights different programming languages (including C, C++, C#, CSS, F#, HTML, Java, JavaScript, JSON, PHP, PowerShell, Python, Rust, SQL, XML, and YAML).
 
 ## Installation

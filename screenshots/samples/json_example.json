@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "theme": "Dark+ Modern",
+  "version": "1.0.0",
+  "author": {
+    "name": "Developer",
+    "email": "dev@notepadplusplus.org",
+    "active": true
+  },
+  "settings": {
+    "fontFamily": "Consolas, 'Courier New', monospace",
+    "fontSize": 14,
+    "tabSize": 4,
+    "useSpaces": true,
+    "features": [
+      "syntax_highlighting",
+      "auto_completion",
+      "theme_customization"
+    ]
+  },
+  "metadata": null,
+  "colors": {
+    "background": "#1E1E1E",
+    "foreground": "#D4D4D4",
+    "selection": "#264F78",
+    "keywords": "#569CD6",
+    "comments": "#6A9955"
+  }
+}

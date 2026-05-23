@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sample configurations highlighting XML schema, namespaces, and tags -->
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <appSettings>
+        <add key="Environment" value="Production" />
+        <add key="MaxRetries" value="5" />
+        <add key="EnableLogging" value="true" />
+    </appSettings>
+    <connectionStrings>
+        <connectionString 
+            name="DbConnection" 
+            providerName="System.Data.SqlClient" 
+            connectionString="Server=tcp:sql.server.net;Database=ProductionDb;User ID=admin;Password=secret;" />
+    </connectionStrings>
+    <system.web>
+        <customErrors mode="RemoteOnly" defaultRedirect="GenericErrorPage.htm">
+            <error statusCode="403" redirect="NoAccess.htm" />
+            <error statusCode="404" redirect="FileNotFound.htm" />
+        </customErrors>
+    </system.web>
+</configuration>

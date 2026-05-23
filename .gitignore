@@ -1,4 +1,5 @@
 .gemini/
 .github/
 .antigravitycli/
+capture/
 gha-creds-*.json
