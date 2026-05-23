@@ -26,79 +26,79 @@ This page indexes screenshots of the **Dark+ Modern** Notepad++ theme, demonstra
 ## C
 File: `c.jpg`
 
-![C](c.jpg)
+<img src="c.jpg" width="956">
 
 ## C# (C-Sharp)
 File: `csharp.jpg`
 
-![C#](csharp.jpg)
+<img src="csharp.jpg" width="956">
 
 ## C++ (C-Plus-Plus)
 File: `cpp.jpg`
 
-![C++](cpp.jpg)
+<img src="cpp.jpg" width="956">
 
 ## CSS
 File: `css.jpg`
 
-![CSS](css.jpg)
+<img src="css.jpg" width="956">
 
 ## F# (F-Sharp)
 File: `fsharp.jpg`
 
-![F#](fsharp.jpg)
+<img src="fsharp.jpg" width="988">
 
 ## HTML
 File: `html.jpg`
 
-![HTML](html.jpg)
+<img src="html.jpg" width="956">
 
 ## Java
 File: `java.jpg`
 
-![Java](java.jpg)
+<img src="java.jpg" width="956">
 
 ## JavaScript
 File: `javascript.jpg`
 
-![JavaScript](javascript.jpg)
+<img src="javascript.jpg" width="956">
 
 ## JSON
 File: `json.jpg`
 
-![JSON](json.jpg)
+<img src="json.jpg" width="956">
 
 ## PHP
 File: `php.jpg`
 
-![PHP](php.jpg)
+<img src="php.jpg" width="956">
 
 ## PowerShell
 File: `powershell.jpg`
 
-![PowerShell](powershell.jpg)
+<img src="powershell.jpg" width="956">
 
 ## Python
 File: `python.jpg`
 
-![Python](python.jpg)
+<img src="python.jpg" width="956">
 
 ## Rust
 File: `rust.jpg`
 
-![Rust](rust.jpg)
+<img src="rust.jpg" width="956">
 
 ## SQL
 File: `sql.jpg`
 
-![SQL](sql.jpg)
+<img src="sql.jpg" width="956">
 
 ## XML
 File: `xml.jpg`
 
-![XML](xml.jpg)
+<img src="xml.jpg" width="956">
 
 ## YAML
 File: `yaml.jpg`
 
-![YAML](yaml.jpg)
+<img src="yaml.jpg" width="956">
