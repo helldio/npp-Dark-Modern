@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
     Dark+ Modern Theme for Notepad++
+    Author: helldio (https://github.com/helldio)
+    Last Modified: 2026-05-23
     Repository: https://github.com/helldio/npp-Dark-Modern
     Branch: main (current theme) | Old VS2019-style theme: https://github.com/helldio/npp-Dark-Modern/tree/master
     License: MIT
@@ -1886,7 +1888,7 @@
             <WordsStyle styleID="7" name="ColumnColor7" fgColor="55996A" bgColor="1F1F1F" fontName="Consolas" fontStyle="0"></WordsStyle>
             <WordsStyle styleID="8" name="ColumnColor8" fgColor="D4D4D4" bgColor="1F1F1F" fontName="Consolas" fontStyle="0"></WordsStyle>
             <WordsStyle styleID="9" name="ColumnColor9" fgColor="4EC9B0" bgColor="1F1F1F" fontName="Consolas" fontStyle="0"></WordsStyle>
-            <WordsStyle styleID="10" name="ColumnColor10" fgColor="F44747" bgColor="1F1F1F" fontName="Consolas" fontStyle="0"></WordsStyle>
+            <WordsStyle styleID="10" name="ColumnColor10" fgColor="D16969" bgColor="1F1F1F" fontName="Consolas" fontStyle="0"></WordsStyle>
         </LexerType>
         <LexerType name="markdown" desc="Markdown2" ext="md markdown">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="D4D4D4" bgColor="1F1F1F" fontName="" fontStyle="0"></WordsStyle>

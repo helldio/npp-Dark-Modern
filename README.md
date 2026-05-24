@@ -12,24 +12,29 @@ This project is a rebranding and complete overhaul of the previously **hellon8/V
 
 ## Screenshots
 
-<img src="screenshots/javascript.png" width="900">
+<img src="screenshots/javascript.png" width="700">
 
 Check out the [Screenshots](screenshots/README.md) to see how the theme highlights different programming languages (including C, C++, C#, CSS, F#, HTML, Java, JavaScript, JSON, PHP, PowerShell, Python, Rust, SQL, XML, and YAML).
 
 ## Installation
 
-The easiest way to install the theme is using the built-in import feature.
+The easiest way to install the theme is by cloning or downloading the repository and running the install script.
 
-### Method 1: Import (Recommended)
+### Method 1: Automatic Script (Recommended)
+1. Clone or download this repository.
+2. Run `install.cmd`. It will automatically copy all files to the correct locations:
+   - **Theme** → `%AppData%\Notepad++\themes\`
+   - **Markdown UDL** → `%AppData%\Notepad++\userDefineLangs\`
+   - **CSVLint plugin config** → `%AppData%\Notepad++\plugins\config\`
+
+   Any missing directories are created automatically. Each step reports `[OK]` or `[FAILED]` so you can spot any issues at a glance.
+
+### Method 2: Import
 1. Download the [`Dark+ Modern.xml`](Dark%2B%20Modern.xml) file (or **Right Click** [`HERE`](https://raw.githubusercontent.com/helldio/npp-Dark-Modern/main/Dark%2B%20Modern.xml) and select **Save Link As...**).
 2. Open Notepad++.
 3. Go to **Settings > Import > Import Style Theme(s)...**
 4. Select the downloaded `.xml` file.
 5. Go to **Settings > Style Configurator**, select **Dark+ Modern** from the theme dropdown, and click **Save & Close**.
-
-### Method 2: Automatic Script
-1. Clone or download this repository.
-2. Run `install.cmd`. This will copy the theme to your local Notepad++ themes folder (`%AppData%\Notepad++\themes`).
 
 ### Method 3: Manual Installation
 1. Download [`Dark+ Modern.xml`](Dark%2B%20Modern.xml) (or **Right Click** [`HERE`](https://raw.githubusercontent.com/helldio/npp-Dark-Modern/main/Dark%2B%20Modern.xml) and select **Save Link As...**).

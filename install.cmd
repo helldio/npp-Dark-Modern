@@ -8,24 +8,49 @@
 setlocal
 
 set "THEME_NAME=Dark+ Modern.xml"
-set "TARGET_DIR=%AppData%\Notepad++\themes"
+set "THEME_DIR=%AppData%\Notepad++\themes"
 
-echo Installing %THEME_NAME% to %TARGET_DIR%...
+set "UDL_SRC=plugins\markdown-dark.xml"
+set "UDL_DIR=%AppData%\Notepad++\userDefineLangs"
 
-if not exist "%TARGET_DIR%" (
-    echo Creating themes directory...
-    mkdir "%TARGET_DIR%"
-)
+set "PLUGIN_SRC=plugins\CSVLint.xml"
+set "PLUGIN_DIR=%AppData%\Notepad++\plugins\config"
 
-copy /y "%~dp0%THEME_NAME%" "%TARGET_DIR%\"
+set "ERRORS=0"
 
-if %errorlevel% equ 0 (
-    echo.
-    echo Theme installed successfully!
+:: ----------------------------------------------------------
+:: Theme
+:: ----------------------------------------------------------
+echo Installing theme...
+if not exist "%THEME_DIR%" mkdir "%THEME_DIR%"
+copy /y "%~dp0%THEME_NAME%" "%THEME_DIR%\" >nul
+if %errorlevel% neq 0 ( echo   [FAILED] Theme & set "ERRORS=1" ) else echo   [OK] Theme ^-^> %THEME_DIR%
+
+:: ----------------------------------------------------------
+:: UDL (Markdown)
+:: ----------------------------------------------------------
+echo Installing UDL files...
+if not exist "%UDL_DIR%" mkdir "%UDL_DIR%"
+copy /y "%~dp0%UDL_SRC%" "%UDL_DIR%\" >nul
+if %errorlevel% neq 0 ( echo   [FAILED] %UDL_SRC% & set "ERRORS=1" ) else echo   [OK] %UDL_SRC% ^-^> %UDL_DIR%
+
+:: ----------------------------------------------------------
+:: Plugin config (CSVLint)
+:: ----------------------------------------------------------
+echo Installing plugin config files...
+if not exist "%PLUGIN_DIR%" mkdir "%PLUGIN_DIR%"
+copy /y "%~dp0%PLUGIN_SRC%" "%PLUGIN_DIR%\" >nul
+if %errorlevel% neq 0 ( echo   [FAILED] %PLUGIN_SRC% & set "ERRORS=1" ) else echo   [OK] %PLUGIN_SRC% ^-^> %PLUGIN_DIR%
+
+:: ----------------------------------------------------------
+:: Result
+:: ----------------------------------------------------------
+echo.
+if "%ERRORS%"=="0" (
+    echo All files installed successfully!
     echo Please restart Notepad++ and select "Dark+ Modern" in Settings ^> Style Configurator.
 ) else (
-    echo.
-    echo Error: Failed to copy theme file.
+    echo Some files failed to copy. Check the errors above.
 )
 
 pause
