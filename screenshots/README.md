@@ -8,7 +8,7 @@ This page indexes screenshots of the **Dark+ Modern** Notepad++ theme, demonstra
 * [C# (C-Sharp)](#c-sharp-c)
 * [C++ (C-Plus-Plus)](#c-plus-plus-c)
 * [CSS](#css)
-* [F# (F-Sharp)](#f-sharp-f)
+* [F# (F-Sharp)](#f-sharp-f) *(requires [nppFSIPlugin](https://github.com/MiloDavis/FSharp-notepad-plus-plus) for syntax colouring)*
 * [HTML](#html)
 * [Java](#java)
 * [JavaScript](#javascript)
@@ -39,6 +39,8 @@ This page indexes screenshots of the **Dark+ Modern** Notepad++ theme, demonstra
 <img src="css.png" width="900">
 
 ## F# (F-Sharp)
+
+> **Note:** F# syntax colouring requires the [nppFSIPlugin](https://github.com/rdipardo/nppFSIPlugin) plugin to be installed.
 
 <img src="fsharp.png" width="900">
 
